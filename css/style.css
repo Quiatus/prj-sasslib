@@ -9,6 +9,7 @@
 body {
   font-family: Poppins, sans-serif;
   background-color: #DDD;
+  color: #222;
 }
 
 ul {
@@ -19,11 +20,11 @@ ul {
 a,
 a:visited {
   text-decoration: none;
-  color: #66D;
+  color: #326dee;
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.75;
 }
 
 img {
@@ -48,12 +49,7 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.general {
-  color: #222;
-}
-
 button {
-  outline: none;
   font-family: inherit;
   font-size: 1.2rem;
   color: #fff;
@@ -62,11 +58,10 @@ button {
   background-color: #326dee;
   padding: 0.5rem 0;
   min-width: 5rem;
-  opacity: 1;
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 0.75;
 }
 
 button:active {

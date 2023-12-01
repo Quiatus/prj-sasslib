@@ -11,6 +11,7 @@
 body {
   font-family: $font;
   background-color: $bgcolor;
+  color: $text-general;
 }
 
 ul {
@@ -25,7 +26,7 @@ a:visited {
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: $opacity-hover;
 }
 
 img {
