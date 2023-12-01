@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  background-color: #326dee;
+  color: #DDD;
+  padding: 1rem;
+  display: flex;
+}
+
 body {
   font-family: Poppins, sans-serif;
   background-color: #DDD;
@@ -49,6 +57,22 @@ h1 {
   margin-bottom: 1rem;
 }
 
+header h2 {
+  line-height: 1;
+}
+
+.error {
+  color: #d32752;
+  border: 1px solid #d32752;
+  padding: 0 0.5rem;
+}
+
+.notification {
+  color: #1aa855;
+  border: 1px solid #1aa855;
+  padding: 0 0.5rem;
+}
+
 button {
   font-family: inherit;
   font-size: 1.2rem;
@@ -69,17 +93,5 @@ button:active {
 }
 
 .section {
-  max-width: 700px;
-}
-
-.error {
-  color: #d32752;
-  border: 1px solid #d32752;
-  padding: 0 0.5rem;
-}
-
-.notification {
-  color: #1aa855;
-  border: 1px solid #1aa855;
-  padding: 0 0.5rem;
+  max-width: 1000px;
 }

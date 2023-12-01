@@ -1,11 +1,18 @@
-@use 'colors' as *;
-@use 'fonts' as *;
+@use 'variables' as *;
 
 /* reset styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: $primary;
+  color: $bgcolor;
+  padding: 1rem;
+  display: flex;
 }
 
 body {
