@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* reset styles */
 * {
-  color: inherit;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,6 +8,7 @@
 
 body {
   font-family: Poppins, sans-serif;
+  background-color: #DDD;
 }
 
 ul {
@@ -16,15 +16,75 @@ ul {
   list-style-type: none;
 }
 
-a {
+a,
+a:visited {
   text-decoration: none;
+  color: #66D;
 }
 
-hr {
-  border: 0;
-  border-top: 1px dotted #efefef;
+a:hover {
+  opacity: 0.7;
 }
 
 img {
   max-width: 100%;
+  display: block;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+div {
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #CCC;
+  border-radius: 1rem;
+}
+
+h1 {
+  color: #326dee;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.general {
+  color: #222;
+}
+
+button {
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #326dee;
+  padding: 0.5rem 0;
+  min-width: 5rem;
+  opacity: 1;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.section {
+  max-width: 700px;
+}
+
+.error {
+  color: #d32752;
+  border: 1px solid #d32752;
+  padding: 0 0.5rem;
+}
+
+.notification {
+  color: #1aa855;
+  border: 1px solid #1aa855;
+  padding: 0 0.5rem;
 }

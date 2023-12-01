@@ -1,0 +1,26 @@
+@use 'colors' as *;
+
+button {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: $btncolor-primary;
+    border: none;
+    border-radius: 5px;
+    background-color: $primary;
+    padding: 0.5rem 0;
+    min-width: 5rem;
+    opacity: 1;
+}
+
+button:hover {   
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.section {
+    max-width: 700px;
+}
