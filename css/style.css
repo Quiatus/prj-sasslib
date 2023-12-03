@@ -101,3 +101,23 @@ button:active {
 .section {
   max-width: 1000px;
 }
+
+.card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
+  max-width: 60%;
+  margin: 0;
+}
+.card .card-title {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card a {
+  text-decoration: underline;
+}

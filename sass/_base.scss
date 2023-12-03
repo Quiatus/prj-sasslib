@@ -11,7 +11,7 @@ header {
   width: 100%;
   background-color: $primary;
   color: $bgcolor;
-  padding: 1rem;
+  padding: $size-def;
   display: flex;
 }
 
@@ -42,12 +42,12 @@ img {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: $size-def;
 }
 
 div {
-  margin: 1rem auto;
-  padding: 1rem;
+  margin: $size-def auto;
+  padding: $size-def;
   background-color: $bgcolor-secondary;
-  border-radius: 1rem;
+  border-radius: $size-def;
 }

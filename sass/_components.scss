@@ -9,7 +9,7 @@ button {
     border: none;
     border-radius: 5px;
     background-color: $primary;
-    padding: 0.5rem 0;
+    padding: $size-half 0;
     min-width: 5rem;
 }
 
@@ -25,4 +25,27 @@ button:active {
 
 .section {
     max-width: 1000px;
+}
+
+.card {
+    display: block;
+    padding: $size-def;
+    border: 1px solid #ddd;
+    box-shadow: $base-box-shadow;
+    max-width: 60%;
+    margin: 0;
+    
+    .card-title{
+        font-size: $size-def;
+        padding-bottom: $size-def;
+        font-weight: bold;
+    }
+
+    .card-body {
+        font-size: $size-def;
+    }
+
+    a {
+        text-decoration: underline;
+    }
 }

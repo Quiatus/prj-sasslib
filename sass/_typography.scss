@@ -3,7 +3,7 @@
 h1 {
     color: $primary;
     line-height: 1;
-    margin-bottom: 1rem;
+    margin-bottom: $size-def;
 }
 
 header h2 {
@@ -13,17 +13,17 @@ header h2 {
 .error {
     color: $error;
     border: 1px solid $error;
-    padding: 0 0.5rem;
+    padding: 0 $size-half;
 }
 
 .notification {
     color: $secondary;
     border: 1px solid $secondary;
-    padding: 0 0.5rem;
+    padding: 0 $size-half;
 }
 
 .information {
     color: $info;
     border: 1px solid $info;
-    padding: 0 0.5rem;
+    padding: 0 $size-half;
 }
