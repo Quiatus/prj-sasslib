@@ -27,9 +27,13 @@ body {
 main {
   display: grid;
   padding: $size-def;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   gap: $size-def;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 ul {

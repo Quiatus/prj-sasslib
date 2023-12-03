@@ -10,6 +10,10 @@ header h2 {
     line-height: 1;
 }
 
+span {
+    white-space: nowrap;
+}
+
 .error {
     color: $error;
     border: 1px solid $error;

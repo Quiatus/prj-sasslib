@@ -1,24 +1,35 @@
 @use 'variables' as *;
 
-// buttons
+// mixins
 
-button {
+@mixin btn($btncolor: $primary) {
     font-family: inherit;
     font-size: 1.2rem;
-    color: $btncolor-primary;
+    color: map-get($colors, "white") ;
     border: none;
-    border-radius: 5px;
-    background-color: $primary;
-    padding: $size-half 0;
-    min-width: 5rem;
+    border-radius: $size-double;
+    padding: $size-half $size-def;
+    background-color: $btncolor;
+    margin-right: $size-def;
+    cursor: pointer;
+
+    &:hover {
+        opacity: $opacity-hover;
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
 }
 
-button:hover {   
-    opacity: $opacity-hover;
+// buttons
+
+.button {
+    @include btn;
 }
 
-button:active {
-    transform: scale(0.95);
+.button-error {
+    @include btn($error);
 }
 
 // divs
