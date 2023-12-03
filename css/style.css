@@ -26,12 +26,23 @@ header {
   color: #DDD;
   padding: 1rem;
   display: flex;
+  position: sticky;
+  top: 0;
 }
 
 body {
   font-family: Poppins, sans-serif;
   background-color: #DDD;
   color: #222;
+  scroll-behavior: smooth;
+}
+
+main {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
 }
 
 ul {
@@ -59,7 +70,6 @@ p {
 }
 
 div {
-  margin: 1rem auto;
   padding: 1rem;
   background-color: #CCC;
   border-radius: 1rem;
@@ -112,8 +122,8 @@ button:active {
   transform: scale(0.95);
 }
 
-.section {
-  max-width: 1000px;
+.section:hover {
+  box-shadow: 0 0 10px #808080;
 }
 
 .card {
@@ -496,30 +506,6 @@ button:active {
   background-color: #000;
 }
 
-.text-black-light-1 {
-  color: #404040;
-}
-
-.text-black-light-2 {
-  color: gray;
-}
-
-.text-black-light-3 {
-  color: #bfbfbf;
-}
-
-.text-black-dark-1 {
-  color: black;
-}
-
-.text-black-dark-2 {
-  color: black;
-}
-
-.text-black-dark-3 {
-  color: black;
-}
-
 .text-white {
   color: #fff;
 }
@@ -528,26 +514,6 @@ button:active {
   background-color: #fff;
 }
 
-.text-white-light-1 {
-  color: white;
-}
-
-.text-white-light-2 {
-  color: white;
-}
-
-.text-white-light-3 {
-  color: white;
-}
-
-.text-white-dark-1 {
-  color: #bfbfbf;
-}
-
-.text-white-dark-2 {
-  color: gray;
-}
-
-.text-white-dark-3 {
-  color: #404040;
+.test-if {
+  color: #fff;
 }

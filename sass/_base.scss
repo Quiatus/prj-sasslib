@@ -13,12 +13,23 @@ header {
   color: $bgcolor;
   padding: $size-def;
   display: flex;
+  position: sticky;
+  top: 0
 }
 
 body {
   font-family: $font;
   background-color: $bgcolor;
   color: $text-general;
+  scroll-behavior: smooth;
+}
+
+main {
+  display: grid;
+  padding: $size-def;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: $size-def;
 }
 
 ul {
@@ -46,7 +57,6 @@ p {
 }
 
 div {
-  margin: $size-def auto;
   padding: $size-def;
   background-color: $bgcolor-secondary;
   border-radius: $size-def;

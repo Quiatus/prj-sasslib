@@ -12,18 +12,29 @@
 
     // light/dark variations using for
 
-    @for $i from 1 through 3 {
-        .text-#{$key}-light-#{$i} {
-            color: mix(white, $val, $i * 25%)
+    @if ($val != black and $val != white) { // excludes white and black variations
+        @for $i from 1 through 3 {
+            .text-#{$key}-light-#{$i} {
+                color: mix(white, $val, $i * 25%)
+            }
+        }
+    
+        @for $i from 1 through 3 {
+            .text-#{$key}-dark-#{$i} {
+                color: mix(black, $val, $i * 25%)
+            }
         }
     }
-
-    @for $i from 1 through 3 {
-        .text-#{$key}-dark-#{$i} {
-            color: mix(black, $val, $i * 25%)
-        }
-    }
-
 }
 
+// conditions
 
+@if (false) {
+    .test-if {
+        color: #000;
+    }
+} @else {
+    .test-if {
+        color: #fff;
+    }
+}

@@ -23,8 +23,8 @@ button:active {
 
 // divs
 
-.section {
-    max-width: 1000px;
+.section:hover {
+    box-shadow: 0 0 10px map-get($colors, "gray");
 }
 
 .card {
