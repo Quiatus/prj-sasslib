@@ -31,7 +31,7 @@ main {
   grid-template-rows: auto;
   gap: $size-def;
 
-  @media screen and (min-width: 1024px) {
+  @include breakpoint('lg') {
     grid-template-columns: repeat(2, 1fr);
   }
 }
