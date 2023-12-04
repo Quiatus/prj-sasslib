@@ -1,5 +1,4 @@
-@use 'variables' as *;
-@use 'functions' as *;
+@use 'helpers' as *;
 
 // mixins
 
@@ -11,7 +10,7 @@
     border-radius: $size-double;
     padding: $size-half $size-def;
     background-color: $btncolor;
-    margin-right: $size-def;
+    margin-right: $size-half;
     cursor: pointer;
 
     &:hover {
