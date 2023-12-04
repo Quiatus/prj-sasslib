@@ -1,4 +1,5 @@
 @use 'variables' as *;
+@use 'functions' as *;
 
 // mixins
 
@@ -31,6 +32,15 @@
 .button-error {
     @include btn($error);
 }
+
+.button-confirm {
+    @include btn($secondary);
+    color: comColor($primary);
+    &:hover {
+        background-color: comColor($error, 50%);
+    }
+}
+
 
 // divs
 
