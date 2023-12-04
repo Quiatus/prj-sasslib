@@ -69,3 +69,22 @@
         text-decoration: underline;
     }
 }
+
+// navs
+
+.flex-layout {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    @extend .flex-layout;
+    padding: $size-double;
+    box-shadow: $base-box-shadow;
+
+    .size-title {
+        font-size: $size-double;
+    }
+}

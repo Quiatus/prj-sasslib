@@ -242,6 +242,21 @@ span {
   text-decoration: underline;
 }
 
+.flex-layout, .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  padding: 2rem;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar .size-title {
+  font-size: 2rem;
+}
+
 .text-primary {
   color: #326dee;
 }
