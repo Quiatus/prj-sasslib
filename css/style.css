@@ -668,262 +668,323 @@ span {
 
 .container-grid {
   width: 100%;
-  max-width: 1200px;
-  margin: 1rem auto;
-  padding: 0 1rem;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .row {
   display: flex;
   flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
 @media (min-width: 0) {
   .col-1-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 8%;
   }
   .col-2-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 16%;
   }
   .col-3-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 25%;
   }
   .col-4-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 33%;
   }
   .col-5-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 41%;
   }
   .col-6-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 50%;
   }
   .col-7-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 58%;
   }
   .col-8-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 66%;
   }
   .col-9-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 75%;
   }
   .col-10-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 83%;
   }
   .col-11-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 91%;
   }
   .col-12-xs {
+    border: 1px solid black;
     flex-grow: 0;
     width: 100%;
   }
 }
 @media (min-width: 480px) {
   .col-1-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 8%;
   }
   .col-2-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 16%;
   }
   .col-3-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 25%;
   }
   .col-4-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 33%;
   }
   .col-5-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 41%;
   }
   .col-6-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 50%;
   }
   .col-7-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 58%;
   }
   .col-8-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 66%;
   }
   .col-9-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 75%;
   }
   .col-10-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 83%;
   }
   .col-11-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 91%;
   }
   .col-12-sm {
+    border: 1px solid black;
     flex-grow: 0;
     width: 100%;
   }
 }
 @media (min-width: 720px) {
   .col-1-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 8%;
   }
   .col-2-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 16%;
   }
   .col-3-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 25%;
   }
   .col-4-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 33%;
   }
   .col-5-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 41%;
   }
   .col-6-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 50%;
   }
   .col-7-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 58%;
   }
   .col-8-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 66%;
   }
   .col-9-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 75%;
   }
   .col-10-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 83%;
   }
   .col-11-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 91%;
   }
   .col-12-md {
+    border: 1px solid black;
     flex-grow: 0;
     width: 100%;
   }
 }
 @media (min-width: 960px) {
   .col-1-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 8%;
   }
   .col-2-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 16%;
   }
   .col-3-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 25%;
   }
   .col-4-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 33%;
   }
   .col-5-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 41%;
   }
   .col-6-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 50%;
   }
   .col-7-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 58%;
   }
   .col-8-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 66%;
   }
   .col-9-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 75%;
   }
   .col-10-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 83%;
   }
   .col-11-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 91%;
   }
   .col-12-lg {
+    border: 1px solid black;
     flex-grow: 0;
     width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .col-1-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 8%;
   }
   .col-2-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 16%;
   }
   .col-3-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 25%;
   }
   .col-4-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 33%;
   }
   .col-5-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 41%;
   }
   .col-6-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 50%;
   }
   .col-7-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 58%;
   }
   .col-8-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 66%;
   }
   .col-9-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 75%;
   }
   .col-10-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 83%;
   }
   .col-11-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 91%;
   }
   .col-12-xl {
+    border: 1px solid black;
     flex-grow: 0;
     width: 100%;
   }
